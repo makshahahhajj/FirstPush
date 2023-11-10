@@ -3,8 +3,7 @@ public class Main {
         Order order = new Order();
 
         System.out.println(order);
-
-        System.out.printf("Hello and welcome");
         
+        System.out.printf("Hello and welcome and just do it!");
     }
 }
