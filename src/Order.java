@@ -17,4 +17,8 @@ public class Order {
     private static boolean check() {
         return true;
     }
+
+    private void increment() {
+        count++;
+    }
 }
