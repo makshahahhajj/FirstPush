@@ -4,4 +4,9 @@ public class Order {
     public Order() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Order has count: " + count;
+    }
 }
