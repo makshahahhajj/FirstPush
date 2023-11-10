@@ -4,7 +4,7 @@ public class Main {
 
         System.out.println(order);
 
-        System.out.printf("Hello and welcome!");
+        System.out.printf("Hello and welcome");
         
     }
 }
