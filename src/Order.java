@@ -14,8 +14,12 @@ public class Order {
         return "Order has count: " + count;
     }
 
-    private static boolean check() {
-        return true;
+    private boolean check() {
+        if (count > 0) {
+            return true;
+        }
+
+        return false;
     }
 
     private void increment() {
